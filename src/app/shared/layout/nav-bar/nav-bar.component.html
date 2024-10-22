@@ -1,16 +1,14 @@
 <nav>
-    <div class="container">
-        <a>X-Clone</a>
-        <ul>
-            <li>
-                <a>Home</a>
-            </li>
-            <li>
-                <a class="nav-link" routerLink="/profile" routerLinkActive="active">Profile</a>
-            </li>
-            <li>
-                <a class="nav-link" routerLink="/settings" routerLinkActive="active">Settings</a>
-            </li>
-        </ul>
+    <h2>X-Clone</h2>
+    <div class="icon-container">
+        <button mat-icon-button>
+            <mat-icon matBadge="{{notificationCount}}">home</mat-icon>
+        </button>
+        <button mat-icon-button>
+            <mat-icon>person</mat-icon>
+        </button>
+        <button mat-icon-button>
+            <mat-icon>settings</mat-icon>
+        </button>
     </div>
 </nav>
