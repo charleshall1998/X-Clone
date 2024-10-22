@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
+import { MatDivider } from '@angular/material/divider';
 import { MatIcon } from '@angular/material/icon';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterLink, RouterLinkActive } from '@angular/router';
@@ -14,7 +15,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     MatButtonModule,
     MatIcon,
     MatBadgeModule,
-    MatToolbarModule
+    MatToolbarModule,
+    MatDivider
   ],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'

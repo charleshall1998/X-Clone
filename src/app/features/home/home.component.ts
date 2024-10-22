@@ -9,5 +9,5 @@ import { PostListComponent } from '../post-list/post-list.component';
   styleUrl: './home.component.css'
 })
 export class HomeComponent {
-
+  
 }
