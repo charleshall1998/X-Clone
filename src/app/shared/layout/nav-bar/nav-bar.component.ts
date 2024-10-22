@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { MatBadgeModule } from '@angular/material/badge';
 import { MatButtonModule } from '@angular/material/button';
 import { MatIcon } from '@angular/material/icon';
+import { MatToolbarModule } from '@angular/material/toolbar';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
@@ -12,7 +13,8 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
     RouterLink,
     MatButtonModule,
     MatIcon,
-    MatBadgeModule
+    MatBadgeModule,
+    MatToolbarModule
   ],
   templateUrl: './nav-bar.component.html',
   styleUrl: './nav-bar.component.css'
